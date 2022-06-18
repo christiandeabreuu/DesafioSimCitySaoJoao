@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="altura_bandeirinha_splash">96dp</dimen>
+    <dimen name="largura_carinho_card">50dp</dimen>
+    <dimen name="altura_carrinho_card">50dp</dimen>
+    <dimen name="margin_geral">16dp</dimen>
+    <dimen name="fonte_card_14sp_bold">14sp</dimen>
+    <dimen name="fonte_titulo_16sp_bold">16sp</dimen>
+    <dimen name="fonte_texto_12sp">12sp</dimen>
+    <dimen name="fonte_splash_26sp">26sp</dimen>
+</resources>

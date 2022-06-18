@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/ivCarrinho"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/carrinho"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvResultadoNomeProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Produto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/ivCarrinho"
+        app:layout_constraintTop_toTopOf="@+id/ivCarrinho" />
+
+    <TextView
+        android:id="@+id/tvResultadoQtdProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantidade: %s "
+        android:layout_marginTop="45dp"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivCarrinho" />
+
+    <TextView
+        android:id="@+id/tvResultadoValorUnitario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor(unidade) Produto: %s"
+        android:textSize="12sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvResultadoQtdProduto" />
+
+    <TextView
+        android:id="@+id/tvResultadoReceita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Receita: Coloque o óleo numa caçarola média, adicione 3 grãos de milho e leve ao fogo médio. O óleo vai estar na temperatura certa para fazer a pipoca assim que um dos grãos estourar. Acrescento o restante do milho, tampe a panela e diminua o fogo"
+        android:textSize="12sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvResultadoValorUnitario" />
+
+    <ImageView
+        android:id="@+id/ivCoracao"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_favoritar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

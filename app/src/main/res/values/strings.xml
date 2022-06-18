@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sim City Festa Junina</string>
+    <string name="descricao_festa_junina">Festa Junina é algo muito bom, e em SimCity nao é diferente, nesse app vou consegue organizar sua lista de compras para sua festa junina de maneira facil e simples, só cadastrar os produtos da sua receita e se divertir!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_exemplo_card">2 - item de exemplo</string>
+</resources>

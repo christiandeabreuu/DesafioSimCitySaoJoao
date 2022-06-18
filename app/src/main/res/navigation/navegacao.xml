@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegacao"
+    app:startDestination="@id/cadastroFragment">
+
+    <fragment
+        android:id="@+id/cadastroFragment"
+        android:name="br.com.zup.simcityfestajunina.fragmentsCadastro.CadastroFragment"
+        android:label="fragment_cadastro"
+        tools:layout="@layout/fragment_cadastro" >
+        <action
+            android:id="@+id/action_cadastroFragment_to_listaProdutoFragment"
+            app:destination="@id/listaProdutoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listaProdutoFragment"
+        android:name="br.com.zup.simcityfestajunina.fragmentsListaProduto.ListaProdutoFragment"
+        android:label="fragment_lista_produto"
+        tools:layout="@layout/fragment_lista_produto" >
+        <action
+            android:id="@+id/action_listaProdutoFragment_to_detalhesProdutoFragment"
+            app:destination="@id/detalhesProdutoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalhesProdutoFragment"
+        android:name="br.com.zup.simcityfestajunina.fragmentsDetalheProduto.DetalhesProdutoFragment"
+        android:label="DetalhesProdutoFragment" />
+</navigation>
